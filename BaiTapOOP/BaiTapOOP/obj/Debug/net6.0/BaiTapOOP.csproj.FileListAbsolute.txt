@@ -1,0 +1,15 @@
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/BaiTapOOP/BaiTapOOP/obj/Debug/net6.0/BaiTapOOP.csproj.AssemblyReference.cache
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/BaiTapOOP/BaiTapOOP/obj/Debug/net6.0/BaiTapOOP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/BaiTapOOP/BaiTapOOP/obj/Debug/net6.0/BaiTapOOP.AssemblyInfoInputs.cache
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/BaiTapOOP/BaiTapOOP/obj/Debug/net6.0/BaiTapOOP.AssemblyInfo.cs
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/BaiTapOOP/BaiTapOOP/obj/Debug/net6.0/BaiTapOOP.csproj.CoreCompileInputs.cache
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/BaiTapOOP/BaiTapOOP/bin/Debug/net6.0/BaiTapOOP
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/BaiTapOOP/BaiTapOOP/bin/Debug/net6.0/BaiTapOOP.deps.json
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/BaiTapOOP/BaiTapOOP/bin/Debug/net6.0/BaiTapOOP.runtimeconfig.json
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/BaiTapOOP/BaiTapOOP/bin/Debug/net6.0/BaiTapOOP.dll
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/BaiTapOOP/BaiTapOOP/bin/Debug/net6.0/BaiTapOOP.pdb
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/BaiTapOOP/BaiTapOOP/obj/Debug/net6.0/BaiTapOOP.dll
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/BaiTapOOP/BaiTapOOP/obj/Debug/net6.0/refint/BaiTapOOP.dll
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/BaiTapOOP/BaiTapOOP/obj/Debug/net6.0/BaiTapOOP.pdb
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/BaiTapOOP/BaiTapOOP/obj/Debug/net6.0/BaiTapOOP.genruntimeconfig.cache
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/BaiTapOOP/BaiTapOOP/obj/Debug/net6.0/ref/BaiTapOOP.dll

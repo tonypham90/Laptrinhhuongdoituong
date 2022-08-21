@@ -21,9 +21,4 @@ public class LopPhanSo
         result.Mauso = phanSo.Mauso * this.Mauso;
         return result;
     }
-
-    public string PrintPhanSo()
-    {
-        
-    }
 }
