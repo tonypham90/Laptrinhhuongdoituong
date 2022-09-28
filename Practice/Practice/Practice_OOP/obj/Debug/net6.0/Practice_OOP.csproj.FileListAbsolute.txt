@@ -1,0 +1,15 @@
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/Practice/Practice/Practice_OOP/bin/Debug/net6.0/Practice_OOP
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/Practice/Practice/Practice_OOP/bin/Debug/net6.0/Practice_OOP.deps.json
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/Practice/Practice/Practice_OOP/bin/Debug/net6.0/Practice_OOP.runtimeconfig.json
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/Practice/Practice/Practice_OOP/bin/Debug/net6.0/Practice_OOP.dll
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/Practice/Practice/Practice_OOP/bin/Debug/net6.0/Practice_OOP.pdb
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/Practice/Practice/Practice_OOP/obj/Debug/net6.0/Practice_OOP.csproj.AssemblyReference.cache
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/Practice/Practice/Practice_OOP/obj/Debug/net6.0/Practice_OOP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/Practice/Practice/Practice_OOP/obj/Debug/net6.0/Practice_OOP.AssemblyInfoInputs.cache
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/Practice/Practice/Practice_OOP/obj/Debug/net6.0/Practice_OOP.AssemblyInfo.cs
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/Practice/Practice/Practice_OOP/obj/Debug/net6.0/Practice_OOP.csproj.CoreCompileInputs.cache
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/Practice/Practice/Practice_OOP/obj/Debug/net6.0/Practice_OOP.dll
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/Practice/Practice/Practice_OOP/obj/Debug/net6.0/refint/Practice_OOP.dll
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/Practice/Practice/Practice_OOP/obj/Debug/net6.0/Practice_OOP.pdb
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/Practice/Practice/Practice_OOP/obj/Debug/net6.0/Practice_OOP.genruntimeconfig.cache
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/Practice/Practice/Practice_OOP/obj/Debug/net6.0/ref/Practice_OOP.dll
