@@ -1,6 +1,6 @@
 namespace Practice_OOP;
 
-public class PHANSO
+public class Phanso
 {
     private int _tuso;
     private int _mauso;
@@ -19,6 +19,11 @@ public class PHANSO
             if (value!=0)
             {
                 _mauso = value;
+            }
+            else
+            {
+                var ex = new Exception("Ban da chia cho so 0");
+                throw ex;
             }
         }
     }
