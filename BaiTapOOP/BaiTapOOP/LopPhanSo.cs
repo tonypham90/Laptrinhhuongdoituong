@@ -2,7 +2,8 @@ namespace BaiTapOOP;
 
 public class LopPhanSo
 {
-    public int Tuso,Mauso;
+    private int Tuso { get; set; }
+    private int Mauso { get; set; }
 
     public void InputValue(string ghichu)
     {
@@ -11,6 +12,35 @@ public class LopPhanSo
         this.Tuso = int.Parse(Console.ReadLine());
         Console.Write("MauSo:");
         this.Mauso = int.Parse(Console.ReadLine());
+    }
+
+    public int tuso
+    {
+        get => this.Tuso;
+        set
+        {
+            if (value!=0)
+            {
+                this.Tuso = value;
+            }
+        }
+    }
+
+    public int mauso
+    {
+        get => this.Mauso;
+        set
+        {
+            if (value!=0)
+            {
+                this.Mauso = value;
+            }
+            else
+            {
+                Exception ex = new Exception("Ban da gan mau so bang 0");
+                throw ex;
+            }
+        }
     }
 
     public LopPhanSo Sum(LopPhanSo phanSo)
