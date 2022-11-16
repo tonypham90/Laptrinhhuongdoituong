@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2ZYuwDepDkHXaR/RTQ0VHmwcCeUKFYxlrUGoevPH9EOt5kjRbn97DjXPgzwN1qad8Dl0AoVTnh3YY1DQPkW5Ow==",
+  "dgSpecHash": "iJ9XSMf3oIrZooGYdWX0IaOMSQ9mZR/070139u08RlHrLQNGH8Let89imMdQJbqbsOmOwq3zkllf2ZXYX9X63w==",
   "success": true,
   "projectFilePath": "D:\\Users\\AnhPT2\\Documents\\GitHub\\Laptrinhhuongdoituong\\QLCH\\QLCH\\QLCH.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\AnhPT2\\.nuget\\packages\\bootstrap\\5.2.2\\bootstrap.5.2.2.nupkg.sha512",
     "C:\\Users\\AnhPT2\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.11\\microsoft.aspnetcore.jsonpatch.6.0.11.nupkg.sha512",
     "C:\\Users\\AnhPT2\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.11\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.11.nupkg.sha512",
     "C:\\Users\\AnhPT2\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
