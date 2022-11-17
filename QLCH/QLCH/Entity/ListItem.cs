@@ -2,7 +2,7 @@ using QLCH.Operation;
 
 namespace QLCH.Entity;
 
-public class ListItem : IFunction
+public class ListItem : IList
 {
     public List<Item> DSSP { get; set; }
     public void Input()

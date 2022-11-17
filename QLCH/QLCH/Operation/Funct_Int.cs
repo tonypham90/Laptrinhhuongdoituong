@@ -1,10 +1,8 @@
 namespace QLCH.Operation;
 
-public interface IFunction
+public interface IList
 {
-    void Input();
-
-
+    
     void Add();
 
 

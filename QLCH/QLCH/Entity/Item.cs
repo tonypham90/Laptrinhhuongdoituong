@@ -3,9 +3,9 @@ using QLCH.Operation;
 
 namespace QLCH.Entity;
 
-public class Item :IFunction
+public class Item :IList
 {
-    private IFunction _ruleImplementation;
+    private IList _ruleImplementation;
     protected string Id { get; set; }
     protected string Name { get; set; }
     protected string Label { get; set; }
