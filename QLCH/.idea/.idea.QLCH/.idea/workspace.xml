@@ -9,12 +9,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a14f6bba-bd2b-4449-8909-d750508bf687" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/QLCH/Entity/DSSP.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.QLCH/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QLCH/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/DAL/DataWorkFlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/DAL/DataWorkFlow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Entity/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Entity/SP.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Entity/ListItem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Operation/Funct_Int.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Operation/Funct_Int.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -91,6 +99,7 @@
       <workItem from="1668928936896" duration="315000" />
       <workItem from="1668933282091" duration="74000" />
       <workItem from="1668933399783" duration="1216000" />
+      <workItem from="1669044094436" duration="4154000" />
     </task>
     <task id="LOCAL-00001" summary="update giao dien">
       <created>1668643395288</created>

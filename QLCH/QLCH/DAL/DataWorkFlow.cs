@@ -60,9 +60,9 @@ public static class DataWorkFlow
     //end space for label
 
     //Store info
-    public static List<ListItem>? DownloadListItem()
+    public static List<DSSP>? DownloadListItem()
     {
-        List<ListItem>? resList = new List<ListItem>();
+        List<DSSP>? resList = new List<DSSP>();
         StreamReader fileReader = new StreamReader(ItemStore.FullName);
         string jsonstring = fileReader.ReadToEnd();
         fileReader.Close();
@@ -70,7 +70,7 @@ public static class DataWorkFlow
         {
             return resList;
         }
-        resList = JsonConvert.DeserializeObject<List<ListItem>>(jsonstring) ?? throw new InvalidOperationException();
+        resList = JsonConvert.DeserializeObject<List<DSSP>>(jsonstring) ?? throw new InvalidOperationException();
         return resList;
     }
     
@@ -90,15 +90,15 @@ public static class DataWorkFlow
     //End Of store info
 
     //import store
-    public static List<ListItem>? LoadImportHistory()
+    public static List<DSSP>? LoadImportHistory()
     {
         StreamReader fileReader = new StreamReader(ImportRecord.FullName);
         string Jsonstring = fileReader.ReadToEnd();
         fileReader.Close();
-        return JsonConvert.DeserializeObject<List<ListItem>>(Jsonstring);
+        return JsonConvert.DeserializeObject<List<DSSP>>(Jsonstring);
     }
 
-    public static bool UploadImportHistory(List<ListItem> Historylist)
+    public static bool UploadImportHistory(List<DSSP> Historylist)
     {
         StreamWriter fileWriter = new StreamWriter(ImportRecord.FullName);
         fileWriter.Write(JsonConvert.SerializeObject(Historylist));

@@ -1,14 +1,27 @@
 namespace QLCH.Operation;
 
-public interface IList
+public interface IItem
 {
+    protected bool IsDelete { get; set; }
     
-    void Add();
+    void AddNewItem();
 
 
-    void Remove(string value);
+    void RemoveItem()
+    {
+        throw new NotImplementedException();
+    }
 
 
-    void Create();
+    virtual void UpdateItem()
+    {
+        throw new NotImplementedException();
+    }
     
+}
+
+public interface Ilist
+{
+    void Remove(string key);
+    void Update(string key);
 }
