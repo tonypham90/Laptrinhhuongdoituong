@@ -38,9 +38,9 @@ public class Sp :IItem
         _isDelete = true;
     }
 
-    public void UpdateItem(string Name, string label,string manuf)
+    public void UpdateItem(string name, string label,string manuf)
     {
-        this.Name = Name;
+        this.Name = name;
         this.Label = label;
         this.Manuf = manuf;
     }
