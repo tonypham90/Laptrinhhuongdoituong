@@ -8,7 +8,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a14f6bba-bd2b-4449-8909-d750508bf687" name="Changes" comment="" />
+    <list default="true" id="a14f6bba-bd2b-4449-8909-d750508bf687" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.QLCH/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QLCH/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/QLCH.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/QLCH.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/QLCH.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/QLCH.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,8 +104,12 @@
       <workItem from="1668933282091" duration="74000" />
       <workItem from="1668933399783" duration="1216000" />
       <workItem from="1669044094436" duration="5953000" />
+<<<<<<< Updated upstream
       <workItem from="1669114739649" duration="20912000" />
       <workItem from="1669140957106" duration="47000" />
+=======
+      <workItem from="1669071603877" duration="2649000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="update giao dien">
       <created>1668643395288</created>
