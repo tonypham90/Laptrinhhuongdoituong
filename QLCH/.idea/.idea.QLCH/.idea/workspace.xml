@@ -8,7 +8,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a14f6bba-bd2b-4449-8909-d750508bf687" name="Changes" comment="" />
+    <list default="true" id="a14f6bba-bd2b-4449-8909-d750508bf687" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/QLCH/DLCH.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/Entity/Chitietdon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/Entity/HDBan.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/Entity/HDNhap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/Entity/Hoadon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/Entity/QLDL.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/Operation/DateManipulate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/Operation/OpsFunc.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/Pages/LHmoi.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/Pages/LHmoi.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/Pages/SPmoi.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/Pages/SPmoi.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/DLCH.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.QLCH/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QLCH/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/DAL/DataWorkFlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/DAL/DataWorkFlow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Entity/DSLH.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Entity/DSLH.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Entity/DSSP.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Entity/DSSP.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Entity/LoaiHang.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Entity/LoaiHang.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Entity/SP.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Entity/SP.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Operation/Funct_Int.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Operation/Funct_Int.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Pages/Import.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Pages/Import.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/QLCH.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/QLCH.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/QLCH.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/QLCH.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/ref/QLCH.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/ref/QLCH.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/refint/QLCH.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/refint/QLCH.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/staticwebassets.pack.sentinel" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +49,6 @@
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="REBASE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Entity/SP.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -96,6 +126,7 @@
       <workItem from="1668933282091" duration="74000" />
       <workItem from="1668933399783" duration="1216000" />
       <workItem from="1669044094436" duration="5953000" />
+      <workItem from="1669114739649" duration="20912000" />
     </task>
     <task id="LOCAL-00001" summary="update giao dien">
       <created>1668643395288</created>
@@ -152,5 +183,24 @@
     <MESSAGE value="update class LoaiHang.cs,SanPham,DSSP" />
     <MESSAGE value="update for updatefunction" />
     <option name="LAST_COMMIT_MESSAGE" value="update for updatefunction" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/QLCH/Operation/Funct_Int.cs</url>
+          <line>27</line>
+          <properties documentPath="$PROJECT_DIR$/QLCH/Operation/Funct_Int.cs" initialLine="25" containingFunctionPresentation="method 'Remove'">
+            <startOffsets>
+              <option value="389" />
+            </startOffsets>
+            <endOffsets>
+              <option value="390" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

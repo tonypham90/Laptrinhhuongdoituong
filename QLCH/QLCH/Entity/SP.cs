@@ -6,7 +6,7 @@ namespace QLCH.Entity;
 
 public class Sp :IItem
 {
-    private bool _isDelete;
+    protected bool _isDelete;
 
     protected string Name { get; set; }
     protected string Label { get; set; }
@@ -43,6 +43,11 @@ public class Sp :IItem
         this.Name = name;
         this.Label = label;
         this.Manuf = manuf;
+    }
+
+    public bool isDelete()
+    {
+        return _isDelete;
     }
 
 

@@ -60,3 +60,4 @@ D:/Users/AnhPT2/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/obj/Debug/net6.
 /Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/obj/Debug/net6.0/QLCH.csproj.CopyComplete
 /Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/obj/Debug/net6.0/QLCH.genruntimeconfig.cache
 /Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/obj/Debug/net6.0/ref/QLCH.dll
+/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/bin/Debug/net6.0/DLCH.json

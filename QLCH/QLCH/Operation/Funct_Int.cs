@@ -1,3 +1,5 @@
+using QLCH.Entity;
+
 namespace QLCH.Operation;
 
 public interface IItem
@@ -22,6 +24,18 @@ public interface IItem
 
 public interface Ilist
 {
-    void Remove(string key);
-    void Update(string key);
+    virtual void Removesoft(string key)
+    {
+        throw new NotImplementedException();
+    }
+
+    virtual void Update(string key, Sp newSP)
+    {
+        throw new NotImplementedException();
+    }
+
+    virtual void AddNewItem()
+    {
+        throw new NotImplementedException();
+    }
 }

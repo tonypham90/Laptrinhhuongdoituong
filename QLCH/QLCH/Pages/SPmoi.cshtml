@@ -1,0 +1,56 @@
+@page
+@model QLCH.Pages.SPmoi
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> Tao san pham moi</title>
+</head>
+<body>
+<div>
+    <form method="post">
+        <fieldset>
+            <legend>Thong tin san pham moi</legend>
+            <label class="form-label">Ten san pham</label><br/>
+            <input type="text" class="text-dark" name="ItemName" minlength="1" required="required"/><br/><br/>
+            <label class="form-label">Cty San Xuat</label><br/>
+            <input type="text" class="text-dark" name="ItemManuf" minlength="1" required="required"/><br/><br/>
+            <label class="text-dark:"> Chon loai hang</label><br/>
+            <select name="ItemLabel">
+                @{
+                    foreach (string element in Model.ListLabel!)
+                    {
+                        <option value="@element">@element</option>
+                    }
+                }
+            </select><br/><br/>
+            <label class="form-label">Han su dung</label><br/>
+            <input type="date" name="ItemExp" required="required" max="@DateTime.Today"/><br/><br/>
+            <label class="form-label">Ngay san xuat</label><br/>
+            <input type="date" name="ItemMfg" required="required" autocomplete="off" minlength="1"/><br/><br/>
+            <input type="submit" class="btn btn-secondary" value="Nhap"/>
+            <button class="btn btn-secondary" onclick="window.location.href='/index'">Tro ve</button>
+        </fieldset>
+    </form>
+    @{
+        if (Model.StatusRequestAddItem)
+        {
+            <p class="alert alert-success">
+                <strong>@Model.Notification</strong>
+            </p>
+        }
+        else
+        {
+            <p class="alert-warning">
+                <strong>@Model.Notification</strong>
+            </p>
+        }
+    }
+</div>
+</body>
+</html>

@@ -4,25 +4,47 @@ namespace QLCH.Entity;
 
 public class DSSP : Ilist
 {
-    public DSSP(SortedList<string, Sp> dssp)
+    private SortedList<string,Sp> dssp { get; set; }
+
+    public void Addnew(Sp SPmoi)
     {
-        this.dssp = dssp;
+        var listId = dssp.Keys.ToArray();
+        dssp.Add(OpsFunc.TaoID(listId),SPmoi);
     }
 
-    public SortedList<string,Sp> dssp { get; set; }
-
-    public void Add(string Name)
+    public void Removesoft(string key)
     {
-        throw new NotImplementedException();
+        dssp[key].RemoveItem();
     }
 
-    public void Remove(string key)
+    public void Update(string key,Sp SpCapnhat)
     {
-        throw new NotImplementedException();
+        dssp.Remove(key);
+        dssp.Add(key,SpCapnhat);
+    }
+    public SortedList<string, Sp> Export(bool includeDelete)
+    {
+        switch (includeDelete)
+        {
+            case true:
+                return dssp;
+            case false:
+                SortedList<string, Sp> danhsachhientai = dssp;
+                foreach (var item in dssp.Where(item => item.Value.isDelete()))
+                {
+                    danhsachhientai.Remove(item.Key);
+                }
+                return danhsachhientai;
+        }
     }
 
-    public void Update(string key)
+    public bool isIteminlist(Sp Item)
     {
-        throw new NotImplementedException();
+       return dssp.ContainsValue(Item);
+    }
+
+    public bool isItemDeleted(Sp Item)
+    {
+        return Item.isDelete();
     }
 }

@@ -11,6 +11,11 @@ public struct LoaiHang
         IsDelete = false;
     }
 
+    public void Update(string newName)
+    {
+        this.name = newName;
+    }
+
     public void Remove()
     {
         IsDelete = true;
