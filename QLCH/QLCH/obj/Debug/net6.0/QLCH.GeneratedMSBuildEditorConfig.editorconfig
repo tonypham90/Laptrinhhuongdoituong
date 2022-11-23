@@ -8,45 +8,41 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QLCH
 build_property.RootNamespace = QLCH
-build_property.ProjectDir = D:\Users\AnhPT2\Documents\GitHub\Laptrinhhuongdoituong\QLCH\QLCH\
+build_property.ProjectDir = /Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Users\AnhPT2\Documents\GitHub\Laptrinhhuongdoituong\QLCH\QLCH
+build_property.MSBuildProjectDirectory = /Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Users/AnhPT2/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/AnhPT2/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+[/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/AnhPT2/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/LoaiHang.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9haUhhbmcuY3NodG1s
+[/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/LHmoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTEhtb2kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/AnhPT2/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/AnhPT2/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/SPmoi.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU1Btb2kuY3NodG1s
+[/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/SPmoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU1Btb2kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/AnhPT2/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/TestPage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGVzdFBhZ2UuY3NodG1s
+[/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/AnhPT2/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/AnhPT2/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Users/AnhPT2/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-1f9yvtdceb
+[/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wnzpya238p
