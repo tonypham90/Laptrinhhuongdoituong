@@ -41,20 +41,21 @@ public static class DataWorkFlow
     public static QLDL? DataLoad()
     {
         var fileReader = new StreamReader(Data.FullName);
-        string Jsonstring = fileReader.ReadToEnd();
+        string jsonstring = fileReader.ReadToEnd();
         fileReader.Close();
-        return JsonConvert.DeserializeObject<QLDL>(Jsonstring);
+        var kq = JsonConvert.DeserializeObject<QLDL>(jsonstring);
+        return kq;
     }
 
     
-    public static bool DataSave(QLDL qldl)
+    public static bool DataSave(QLDL? qldl)
     {
         if (qldl == null)
         {
             return false;
         }
         StreamWriter fileWriter = new StreamWriter(Data.FullName);
-        string jsonstring = JsonConvert.SerializeObject(Data);
+        string jsonstring = JsonConvert.SerializeObject(qldl);
         fileWriter.Write(jsonstring);
         fileWriter.Close();
         return true;
