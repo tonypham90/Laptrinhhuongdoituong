@@ -37,5 +37,16 @@ public class OpsFunc
         int num = rand.Next(0, chars.Length);
         return chars[num].ToString();
     }
-    
+
+    public static string Notification(bool phanhoi)
+    {
+        if (phanhoi)
+        {
+            return "Thao tác thành công";
+        }
+
+        return "Thao tác thất bại";
+    }
+
+
 }

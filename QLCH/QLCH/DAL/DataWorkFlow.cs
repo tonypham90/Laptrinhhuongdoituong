@@ -11,127 +11,50 @@ public static class DataWorkFlow
     // private static readonly FileInfo ImportRecord = new FileInfo("DataImportHistory.json");
     // private static FileInfo SaleRecord = new FileInfo("DataSaleHistory.json");
     // private static readonly FileInfo ItemStore = new FileInfo("DataStore.json");
-    private static FileInfo DLCH = new FileInfo("DLCH.json");
+    // private static FileInfo LoaiHang = new FileInfo("LoaiHang.json");
+    // private static FileInfo HDBan = new FileInfo("HDBan.json");
+    // private static FileInfo HDNhap = new FileInfo("HDNhap.json");
+    // private static FileInfo SanPham = new FileInfo("SanPham.json");
+    private static FileInfo Data = new FileInfo("Data.json");
     
-    //space for label
-    // public static bool AddNewLabel(string? newLabel)
+    
+    // public static List<LoaiHang>? DSLoaiHangsLoad()
     // {
-    //     List<string> currentLabel = DownloadListLabel();
-    //     if (newLabel != null)
-    //     {
-    //         newLabel = newLabel.ToUpper();
-    //         
-    //         if (currentLabel.Contains(newLabel))
-    //         {
-    //             return false;
-    //         }
-    //         currentLabel.Add(newLabel);
-    //     }
-    //     return UploadLabel(currentLabel);
-    // }
-    //
-    // public static List<string> DownloadListLabel()
-    // {
-    //     List<string> resList = new List<string>();
-    //     StreamReader fileReader = new StreamReader(ItemLabelList.FullName);
-    //     string jsonstring = fileReader.ReadToEnd();
-    //     fileReader.Close();
-    //     if (string.IsNullOrEmpty(jsonstring))
-    //     {
-    //         return resList;
-    //     }
-    //     resList = JsonConvert.DeserializeObject<List<string>>(jsonstring) ?? throw new InvalidOperationException();
-    //     return resList;
-    // }
-    //
-    // public static bool UploadLabel(List<string> listLabel)
-    // {
-    //     if (listLabel.Count==0)
-    //     {
-    //         return false;
-    //     }
-    //     StreamWriter fileWriter = new StreamWriter(ItemLabelList.FullName);
-    //     string jsonstring = JsonConvert.SerializeObject(listLabel);
-    //     fileWriter.Write(jsonstring);
-    //     fileWriter.Close();
-    //     return true;
-    // }
-    //
-    // //end space for label
-    //
-    // //Store info
-    // public static List<DSSP>? DownloadListItem()
-    // {
-    //     List<DSSP>? resList = new List<DSSP>();
-    //     StreamReader fileReader = new StreamReader(ItemStore.FullName);
-    //     string jsonstring = fileReader.ReadToEnd();
-    //     fileReader.Close();
-    //     if (string.IsNullOrEmpty(jsonstring))
-    //     {
-    //         return resList;
-    //     }
-    //     resList = JsonConvert.DeserializeObject<List<DSSP>>(jsonstring) ?? throw new InvalidOperationException();
-    //     return resList;
-    // }
-    //
-    // public static bool UploadItemList(List<int>? listItems)
-    // {
-    //     if (listItems.Count==0)
-    //     {
-    //         return false;
-    //     }
-    //     StreamWriter fileWriter = new StreamWriter(ItemStore.FullName);
-    //     string jsonstring = JsonConvert.SerializeObject(listItems);
-    //     fileWriter.Write(jsonstring);
-    //     fileWriter.Close();
-    //     return true;
-    // }
-    //
-    // //End Of store info
-    //
-    // //import store
-    // public static List<DSSP>? LoadImportHistory()
-    // {
-    //     StreamReader fileReader = new StreamReader(ImportRecord.FullName);
+    //     var fileReader = new StreamReader(LoaiHang.FullName);
     //     string Jsonstring = fileReader.ReadToEnd();
     //     fileReader.Close();
-    //     return JsonConvert.DeserializeObject<List<DSSP>>(Jsonstring);
+    //     return JsonConvert.DeserializeObject<List<LoaiHang>>(Jsonstring);
     // }
     //
-    // public static bool UploadImportHistory(List<DSSP> Historylist)
+    // public static bool DSLoaiHangSave(List<LoaiHang>? loaiHangs)
     // {
-    //     StreamWriter fileWriter = new StreamWriter(ImportRecord.FullName);
-    //     fileWriter.Write(JsonConvert.SerializeObject(Historylist));
+    //     if (loaiHangs == null)
+    //     {
+    //         return false;
+    //     }
+    //     StreamWriter fileWriter = new StreamWriter(LoaiHang.FullName);
+    //     string jsonstring = JsonConvert.SerializeObject(loaiHangs);
+    //     fileWriter.Write(jsonstring);
     //     fileWriter.Close();
     //     return true;
     // }
-    //
-    // //End Import
-    //
-    // //Sale record
-    
-    public static QLDL DownloadData()
+    public static QLDL? DataLoad()
     {
-        QLDL dlCuaHang = new QLDL();
-        StreamReader fileReader = new StreamReader(DLCH.FullName);
-        string jsonstring = fileReader.ReadToEnd();
+        var fileReader = new StreamReader(Data.FullName);
+        string Jsonstring = fileReader.ReadToEnd();
         fileReader.Close();
-        if (string.IsNullOrEmpty(jsonstring))
-        {
-            return dlCuaHang;
-        }
-        dlCuaHang = JsonConvert.DeserializeObject<QLDL>(jsonstring) ?? throw new InvalidOperationException();
-        return dlCuaHang;
+        return JsonConvert.DeserializeObject<QLDL>(Jsonstring);
     }
 
-    public static bool UploadData(QLDL? duLieuCuaHang)
+    
+    public static bool DataSave(QLDL qldl)
     {
-        if (duLieuCuaHang == null)
+        if (qldl == null)
         {
             return false;
         }
-        StreamWriter fileWriter = new StreamWriter(DLCH.FullName);
-        string jsonstring = JsonConvert.SerializeObject(duLieuCuaHang);
+        StreamWriter fileWriter = new StreamWriter(Data.FullName);
+        string jsonstring = JsonConvert.SerializeObject(Data);
         fileWriter.Write(jsonstring);
         fileWriter.Close();
         return true;

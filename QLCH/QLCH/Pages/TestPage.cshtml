@@ -1,0 +1,32 @@
+﻿@page
+@model QLCH.Pages.TestPage
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div>
+    <form method="post">
+            <label id="viewport">Ten loai hang</label>
+            <input type="text" name = "NewLabel"/>
+            <input type="submit" value="Them"/>
+        </form>
+        @*<p class="alert-warning">@Model.Nortification</p>*@
+        <br/>
+        <h1 class="h1">Bang gia tri loai hang hien co</h1>
+        <table>
+        <tr>
+            <th>Loai Hang</th>
+            <th>Chuc nang</th>
+        </tr>
+        </table>
+</div>
+</body>
+</html>

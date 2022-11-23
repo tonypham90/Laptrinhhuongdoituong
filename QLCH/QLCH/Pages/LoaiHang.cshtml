@@ -16,7 +16,7 @@
 <div>
     <form method="post">
         <label id="viewport">Ten loai hang</label>
-        <input type="text" name = "NewLabel"/>
+        <input type="text" name = "LoaiHangMoi"/>
         <input type="submit" value="Them"/>
     </form>
     <p class="alert-warning">@Model.Nortification</p>
@@ -24,19 +24,21 @@
     <h1 class="h1">Bang gia tri loai hang hien co</h1>
     <table>
         <tr>
+            <th>Ma Loai Hang</th>
             <th>Loai Hang</th>
             <th>Chuc nang</th>
         </tr>
         
         @{
-            foreach (string label in @Model.Labelist!)
+            foreach (LoaiHang label in Model.DSLH!)
             { <tr>
-                  <td>@label</td>
+                  <td>@label.ID()</td>
+                  <td>@label.Name</td>
                   <td>
                       @* <a href="LabelRemove?label=@Label">Xoa</a> *@
-                      <button class="btn btn-outline-primary" onclick="window.location.href='LabelRemove?label=@label'">Xoa</button>
+                      <button class="btn btn-outline-primary" onclick="window.location.href='LabelRemove?label=@label.ID()'">Xoa</button>
                       @* <a href="LabelUpdate?label=@Label">Sua</a> *@
-                      <button class="btn btn-outline-primary" onclick="window.location.href='LabelUpdate?label=@label'">Cap Nhat</button>
+                      <button class="btn btn-outline-primary" onclick="window.location.href='LabelUpdate?label=@label.ID()'">Cap Nhat</button>
                   </td>
               </tr>
             }

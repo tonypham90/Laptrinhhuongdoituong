@@ -2,24 +2,27 @@ using QLCH.Entity;
 
 namespace QLCH.Operation;
 
-public interface IItem
+public class Item
 {
-    protected bool IsDelete { get; set; }
+    public string IDitem;
+    public string Name;
+    public bool IsDelete;
     
-    void AddNewItem();
 
-
-    void RemoveItem()
-    {
-        throw new NotImplementedException();
-    }
-
-
-    virtual void UpdateItem()
+    public virtual bool AddItem()
     {
         throw new NotImplementedException();
     }
     
+    public void RemoveItem()
+    {
+        IsDelete = true;
+    }
+
+    public virtual void UpdateItem()
+    {
+        throw new NotImplementedException();
+    }
 }
 
 public interface Ilist

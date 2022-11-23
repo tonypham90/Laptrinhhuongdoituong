@@ -9,8 +9,8 @@ namespace QLCH.Pages;
 public class SPmoi : PageModel
 {
 
-    public QLDL DL;
-    public string[] ListLabel = DataWorkFlow.DownloadData().LHxuatDS(false).ToArray();
+    /*public QLDL DL;
+    public string[] ListLabel = DataWorkFlow.DSLoaiHangsLoad().LHxuatDS(false).ToArray();*/
    
     public bool StatusRequestAddItem;
     [BindProperty]
@@ -45,7 +45,7 @@ public class SPmoi : PageModel
     {
         var newItem = new Sp(ItemName,ItemLabel,ItemManuf);
         
-        StatusRequestAddItem = DL.TaoSP(newItem);
+        /*StatusRequestAddItem = DL.SPTao(newItem);*/
         switch (StatusRequestAddItem)
         {
             case true:

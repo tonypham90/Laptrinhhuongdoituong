@@ -3,19 +3,21 @@ using QLCH.Operation;
 
 namespace QLCH.Entity;
 
-public class Hoadon
+public class Hoadon : Item
 {
     protected string date { get; set; }
-    protected string CreateBy { get; set; }
-    protected SortedList<string,Chitietdon> Danhsach { get; set; }
+    protected List<Chitietdon> Danhsach { get; set; }
+
+    public Hoadon()
+    {
+        var DSMa = Array.Empty<string>();
+        
+        IDitem = OpsFunc.TaoID(DSMa);
+    }
 
     public bool Themsp(string MaSp,int Giatrendonvi,int Soluong)
     {
-        var danhSachSanPham = DataWorkFlow.DownloadData().DanhSachSanPham;
-        if (!danhSachSanPham.ContainsKey(MaSp)) return false;
-        Chitietdon SanPham = new Chitietdon(MaSp, Giatrendonvi, Soluong);
-        Danhsach.Add(OpsFunc.TaoID(Danhsach.Keys.ToArray()),SanPham);
-        return true;
+        throw new NotImplementedException();
 
     }
 
@@ -27,7 +29,6 @@ public class Hoadon
 
     public bool XoaMatHang(string MaLoHang)
     {
-        Danhsach.Remove(MaLoHang);
-        return true;
+        throw new NotImplementedException();
     }
 }

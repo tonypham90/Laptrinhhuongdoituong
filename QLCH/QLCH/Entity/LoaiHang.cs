@@ -1,23 +1,51 @@
+using QLCH.DAL;
+using QLCH.Operation;
+
 namespace QLCH.Entity;
 
-public struct LoaiHang
+public class LoaiHang : Item
 {
-    public string name { get; set; }
-    public bool IsDelete { get; set; }
-
-    public LoaiHang(string name)
+    public LoaiHang( string ten)
     {
-        this.name = name;
+        IDitem = OpsFunc.TaoID(QLDL.LHxuatIdList());
         IsDelete = false;
+        this.Name = String.Empty;
+        this.Name = ten;
+    }
+    public string ID()
+    {
+        return IDitem;
     }
 
-    public void Update(string newName)
+    public override bool AddItem()
     {
-        this.name = newName;
+        if (string.IsNullOrEmpty(this.Name))
+        {
+            return false;
+        }
+
+        var item = this;
+        var dl = DataWorkFlow.DataLoad();
+        if (dl == null)
+        {
+            dl = new QLDL();
+        }
+        dl.DSLH.Add(item);
+        DataWorkFlow.DataSave(dl);
+        return true;
     }
 
-    public void Remove()
+    public bool LHRemove()
     {
-        IsDelete = true;
+        RemoveItem();
+        var DS = QLDL.LHxuatDS(false);
+        for (int i = 0; i < DS.Count; i++)
+        {
+            if (DS[i].ID() == this.IDitem)
+            {
+                DS[i].RemoveItem();
+            }
+        }
+        return QLDL.LoaiHangUpdateDS(DS);
     }
 }

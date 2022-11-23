@@ -8,38 +8,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a14f6bba-bd2b-4449-8909-d750508bf687" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/QLCH/DLCH.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QLCH/Entity/Chitietdon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QLCH/Entity/HDBan.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QLCH/Entity/HDNhap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QLCH/Entity/Hoadon.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QLCH/Entity/QLDL.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QLCH/Operation/DateManipulate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QLCH/Operation/OpsFunc.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QLCH/Pages/LHmoi.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QLCH/Pages/LHmoi.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QLCH/Pages/SPmoi.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QLCH/Pages/SPmoi.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/DLCH.json" afterDir="false" />
+    <list default="true" id="29d22ef5-fc53-45f0-8c77-62031d92b815" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/QLCH/HDBan.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/HDNhap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/Loaihang.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/Pages/LoaiHang.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/Pages/TestPage.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/Pages/TestPage.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/SanPham.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/Data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/HDBan.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/HDNhap.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/Loaihang.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/SanPham.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.QLCH/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.QLCH/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCH/DAL/DataWorkFlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/DAL/DataWorkFlow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/DLCH.json" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCH/Entity/DSLH.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Entity/DSLH.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QLCH/Entity/DSSP.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Entity/DSSP.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Entity/DSSP.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Entity/HDBan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Entity/HDBan.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Entity/HDNhap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Entity/HDNhap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Entity/Hoadon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Entity/Hoadon.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCH/Entity/LoaiHang.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Entity/LoaiHang.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Entity/QLDL.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Operation/QLDL.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCH/Entity/SP.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Entity/SP.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCH/Operation/Funct_Int.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Operation/Funct_Int.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QLCH/Pages/Import.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QLCH/Pages/Import.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Operation/OpsFunc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Operation/OpsFunc.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Pages/LHmoi.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Pages/LoaiHang.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Pages/LHmoi.cshtml.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Pages/SPmoi.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Pages/SPmoi.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Pages/SPmoi.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Pages/SPmoi.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/Pages/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/Pages/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/DLCH.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/QLCH.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/QLCH.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/QLCH.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/QLCH.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/QLCH.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/bin/Debug/net6.0/QLCH.staticwebassets.runtime.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/QLCH.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/ref/QLCH.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/ref/QLCH.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/refint/QLCH.dll" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/refint/QLCH.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/Debug/net6.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/QLCH.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/QLCH.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/QLCH.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/QLCH.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLCH/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/QLCH/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/QLCH/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +70,20 @@
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1f144aaa409c4aeda3f59c99001cd8566e480/cd/bfde9564/ExecutorFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7ca8898b690a4181a32a9cf767cedb1ea9c28/3a/79363941/JsonConvert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/19e515d560e671ec56ec36684bc849558f4c716c0231836bc2ea9b43986c9/DefaultPageModelFactoryProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/575c31ecc35a636b6f962cb71d53992552941a18982aae1c8e6c16305cc3761b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7ed6f5e3b5f78ae215ce2f37f9ca779fea6e31feb6dfdf8b5683b9b27ba54/JsonConvert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a09e42d0d8f444b7b16c624da188bb4f9aa939eae8ccbe98ea49b27b99d3a/ValueType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a9ecb6d52b557236a55919b020756c8d58e9b4e8334a1129f6e388ec2e5d/PageActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b8d2795a624ec1ca285de7c049f728624e8b8a82388f8d67db20c33442b28f53/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c6ad457575d35dcbff26c9a5e3fb1d92f1d3c55f25ef6ebf475367b5d8/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dcf63bd710ab768fc442a7a2112df62d37348b5e52c73843c9633a4b57245c0/JsonSerializerInternalWriter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QLCH/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/QLCH/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,20 +96,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "editor.preferences.smartKeys_rider",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.QLCH">
     <configuration name="QLCH" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/QLCH/QLCH.csproj" />
@@ -110,7 +145,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a14f6bba-bd2b-4449-8909-d750508bf687" name="Changes" comment="" />
+      <changelist id="29d22ef5-fc53-45f0-8c77-62031d92b815" name="Changes" comment="" />
       <created>1668585239843</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -127,6 +162,7 @@
       <workItem from="1668933399783" duration="1216000" />
       <workItem from="1669044094436" duration="5953000" />
       <workItem from="1669114739649" duration="20912000" />
+      <workItem from="1669162785858" duration="24920000" />
     </task>
     <task id="LOCAL-00001" summary="update giao dien">
       <created>1668643395288</created>
@@ -189,17 +225,37 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/QLCH/Operation/Funct_Int.cs</url>
-          <line>27</line>
+          <line>30</line>
           <properties documentPath="$PROJECT_DIR$/QLCH/Operation/Funct_Int.cs" initialLine="25" containingFunctionPresentation="method 'Remove'">
             <startOffsets>
-              <option value="389" />
+              <option value="478" />
             </startOffsets>
             <endOffsets>
-              <option value="390" />
+              <option value="479" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/QLCH/Pages/LoaiHang.cshtml</url>
+          <line>18</line>
+          <properties documentPath="D:\Users\AnhPT2\Documents\GitHub\Laptrinhhuongdoituong\QLCH\QLCH\Pages\LoaiHang.cshtml" initialLine="18" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="DotNet Exception Breakpoints">
+          <properties exception="System.NullReferenceException" isInternal="false" displayValue="NullReferenceException" namespaceName="System">
+            <option name="internal" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

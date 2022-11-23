@@ -4,52 +4,39 @@ using QLCH.Operation;
 
 namespace QLCH.Entity;
 
-public class Sp :IItem
+public class Sp :Item
 {
-    protected bool _isDelete;
-
-    protected string Name { get; set; }
-    protected string Label { get; set; }
+    
+    protected string MaLoaiHang { get; set; }
     protected string Manuf {
         get;
         set;
     }
-    public Sp(string name, string label, string manuf)
+    public Sp(string name, string maLoai, string manuf)
     {
-        _isDelete = false;
+        IsDelete = false;
         Name = name;
-        Label = label;
+        MaLoaiHang = maLoai;
         Manuf = manuf;
     }
 
-    bool IItem.IsDelete
-    {
-        get => _isDelete;
-        set => _isDelete = value;
-    }
-
-    public void AddNewItem()
+    public override bool AddItem()
     {
         throw new NotImplementedException();
     }
-
+    
     public void RemoveItem()
     {
-        _isDelete = true;
+        IsDelete = true;
     }
 
     public void UpdateItem(string name, string label,string manuf)
     {
         this.Name = name;
-        this.Label = label;
+        this.MaLoaiHang = label;
         this.Manuf = manuf;
     }
 
-    public bool isDelete()
-    {
-        return _isDelete;
-    }
 
 
-    
 }
