@@ -23,8 +23,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/LHmoi.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTEhtb2kuY3NodG1s
+[/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/LoaiHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9haUhhbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/Shared/_ValidationScriptsPartial.cshtml]
@@ -33,6 +33,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/SPmoi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU1Btb2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/TestPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGVzdFBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/Pages/_ViewImports.cshtml]
