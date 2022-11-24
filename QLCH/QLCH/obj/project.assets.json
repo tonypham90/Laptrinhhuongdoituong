@@ -274,15 +274,24 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Newtonsoft.Json/13.0.1": {
+      "Microsoft.NETCore.Platforms/6.0.7": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.2-beta3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "related": ".xml"
           }
         }
@@ -509,14 +518,32 @@
         "version.txt"
       ]
     },
-    "Newtonsoft.Json/13.0.1": {
-      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+    "Microsoft.NETCore.Platforms/6.0.7": {
+      "sha512": "xBTeYUODRkOqAtB9e3BcjgiMy3p1uWxxpqTKAvc1/CycUtFA4GdrcYgYHldWjHCQWAx3N93+f/XjTUYrETs4GA==",
       "type": "package",
-      "path": "newtonsoft.json/13.0.1",
+      "path": "microsoft.netcore.platforms/6.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.6.0.7.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Newtonsoft.Json/13.0.2-beta3": {
+      "sha512": "HyxAbMCBdNVrOASMvpBaGY4FzyxaIAqVKfr96ByQti7qtw6bdsQThpwHFhkzaPIq8g+sAk1ueUsDFZ2VTsSebA==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.2-beta3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
+        "README.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
@@ -525,13 +552,15 @@
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
         "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.13.0.2-beta3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
@@ -560,7 +589,10 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.AspNetCore.JsonPatch >= 6.0.11",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 6.0.11",
+      "Microsoft.NETCore.Platforms >= 6.0.7",
+      "Newtonsoft.Json >= 13.0.2-beta3",
       "bootstrap >= 5.2.2"
     ]
   },
@@ -601,9 +633,21 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.JsonPatch": {
+            "target": "Package",
+            "version": "[6.0.11, )"
+          },
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
             "version": "[6.0.11, )"
+          },
+          "Microsoft.NETCore.Platforms": {
+            "target": "Package",
+            "version": "[6.0.7, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.2-beta3, )"
           },
           "bootstrap": {
             "target": "Package",

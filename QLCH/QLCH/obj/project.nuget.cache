@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sClfqFDs3RKksFMvUJgj0BJSiCTBnLyJNZ5f82HBgHkDQYCDTy/XcGlNTqUSB7crpd7sLEmE6NI3OV+ASnDrmg==",
+  "dgSpecHash": "9fKzEeToco7p+HzLColbzGJITDvjxmZBTicJSuXJ+X+4bcXY7o8ZVt0ccwanPxmf7C1+xw8/IR3uvx5avRXpFg==",
   "success": true,
   "projectFilePath": "/Users/tonypham/Documents/GitHub/Laptrinhhuongdoituong/QLCH/QLCH/QLCH.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,8 @@
     "/Users/tonypham/.nuget/packages/microsoft.aspnetcore.jsonpatch/6.0.11/microsoft.aspnetcore.jsonpatch.6.0.11.nupkg.sha512",
     "/Users/tonypham/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/6.0.11/microsoft.aspnetcore.mvc.newtonsoftjson.6.0.11.nupkg.sha512",
     "/Users/tonypham/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
-    "/Users/tonypham/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/tonypham/.nuget/packages/microsoft.netcore.platforms/6.0.7/microsoft.netcore.platforms.6.0.7.nupkg.sha512",
+    "/Users/tonypham/.nuget/packages/newtonsoft.json/13.0.2-beta3/newtonsoft.json.13.0.2-beta3.nupkg.sha512",
     "/Users/tonypham/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512"
   ],
   "logs": []
